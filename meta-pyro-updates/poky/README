@@ -1,0 +1,11 @@
+README ./meta-pyro-updates/
+
+All subdirectories here reflect subdirectories under the yocto main poky distro for pyro
+For any package that is under this directory - there should only be bbappends, or updated recipe files needed to get 
+yocto pyro building on the latest ubuntu Linux releases.
+
+Directories must be listed below - as to what poky directory / subdirectory they mirror
+
+recipes-core/   reflects poky/meta/recipes-core directory
+recipes-devtools/  reflects poky/meta-recipes-devtools directory
+

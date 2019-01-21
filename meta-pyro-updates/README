@@ -1,0 +1,35 @@
+This README file contains information on the contents of the ../meta-pyro-updates layer.
+
+Please see the corresponding sections below for details.
+
+Description
+===========
+This layer if for recipe and bbappends to get Yocto pyro release building clean on fresh
+linux systems - specifically targeting ubuntu 18.10 or later.
+
+For those companies using pyro for a product - this layer should enable you
+to build the Yocto pyro release on updated ubuntu systems.
+
+Security
+========
+While this layer permits the pyro build completion - keep in mind that pyro
+is Yocto supported release any long - and thus security updates for pyro not done.
+
+If your product uses Yocto pyro release - you should consider updating to a later
+Yocto release to get security fixes as well as bug-fixes.
+
+Licensing
+=========
+See COPYING file.
+
+Table of Contents
+=================
+
+  I. Adding the ../meta-pyro-updates layer to your build
+ II. Directory layout
+
+
+I. Adding the ../meta-pyro-updates layer to your build
+=================================================
+
+Run 'bitbake-layers add-layer ../meta-pyro-updates'
